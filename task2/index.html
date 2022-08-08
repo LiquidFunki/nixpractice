@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chronos</title>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <img class="logo" src="assets/logo.png" alt="logo" />
+        <div class="menu">
+          <a href="#home">Pinboard</a>
+          <a class="divi"><div class="divider"></div></a>
+          <a href="#news">Calendar</a>
+          <a class="divi"><div class="divider"></div></a>
+          <a href="#contact">Friends</a>
+          <a class="divi"><div class="divider"></div></a>
+          <a href="#about">Messages</a>
+          <a class="navboardMessages">8</a>
+        </div>
+        
+        <div class="pfpdiv">
+            <img id="pfp" src="assets/kuzya.jpg" alt="kuzya" />
+            <img id="pfpplus" src="assets/plus.png" alt="plus" />
+        </div>
+      </div>
+    </header>
+    <div class="background">
+        <img id="backIMG" src="assets/back.jpg" alt="back">
+        <div class="top-left">
+            <i class="fa fa-heart" style="font-size:30px;color:red"></i>
+            <span style="color:rgba(255, 255, 255, 0.484); margin-left:5px; margin-bottom:40px !important;">10 023</span>
+            <p id="tlLable">Roadtrip on Highway One</p>
+            <p id="tlData">26 January - 1 February</p>
+        </div>
+        <div class="bottom-left">
+            <img id="pfp" src="assets/kuzya.jpg" alt="kuzya" style="margin-left:10px" />
+            <img id="pfp" src="assets/kuzya.jpg" alt="kuzya" style="margin-left:10px" />
+            <img id="pfp" src="assets/kuzya.jpg" alt="kuzya" style="margin-left:10px"/>
+            <div class="newDivider"></div>
+            <div class="bottom-left-text">
+            <span id="botYes"> Yes&nbsp</span>
+            <span id="botNo"> /&nbsp  No </span>
+            </div>
+        </div>
+        <div class="top-right"> <!-- add "a" links -->
+            <span>FEATURED</span>
+            <hr class="solid">
+            <p style="margin-left:1.1em">Blog Post</p>
+            <p style="margin-left:2.7em">Event</p>
+            <p style="margin-left:2.7em">Photo</p>
+            <p style="margin-left:2.7em">Music</p>
+            <p style="margin-left:2.7em">Video</p>
+        </div>
+    </div>
+    <div class="pin">
+        <span id="pinLeft">Your Pinboard</span>
+        <span id="pinRight">SORT BY <div id="gcircle"></div><div id="bcircle"></div><div id="ocircle"></div><div id="rcircle"></div></span>
+    </div>
+    <div class="board">
+        <i class="fa fa-heart" style="position:absolute; font-size:30px; left:2em; padding-top: 0.5em; color:red"></i>
+        <div id="gcircle" style="position:absolute; height:15px !important; width:15px !important; left:25em; margin-top: 1em;"></div>
+        <img id="pinImg" src="assets/kuzya.jpg" alt="kuzya" />
+        <i class="fa fa-heart" style="position:absolute; font-size:30px; left:19em; padding-top: 0.5em; color:red"></i>
+        <div id="bcircle" style="position:absolute; height:15px !important; width:15px !important; left:57em; margin-top: 1em;"></div>
+        <img id="pinImg" src="assets/kuzya.jpg" alt="kuzya" />
+        <i class="fa fa-heart" style="position:absolute; font-size:30px; left:36em; padding-top: 0.5em; color:rgba(255, 255, 255, 0.836)"></i>
+        <img id="pinImg" src="assets/kuzya.jpg" alt="kuzya" />
+        <i class="fa fa-heart" style="position:absolute; font-size:30px; left:2em; padding-top: 15.5em; color:red"></i>
+        <img id="pinImg" src="assets/kuzya.jpg" alt="kuzya" />
+        <i class="fa fa-heart" style="position:absolute; font-size:30px; left:19em; padding-top: 15.5em; color:rgba(255, 255, 255, 0.836)"></i>
+        <img id="pinImg" src="assets/kuzya.jpg" alt="kuzya" />
+        <i class="fa fa-heart" style="position:absolute; font-size:30px; left:36em; padding-top: 15.5em; color:red"></i>
+        <img id="pinImg" src="assets/kuzya.jpg" alt="kuzya" />
+
+    </div>
+    <footer>
+        <hr class="newSolid">
+    </footer>
+  </body>
+</html>
