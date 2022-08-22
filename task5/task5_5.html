@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Таблица умножения</title>
+<style type="text/css">
+td{padding:10px;border:1px solid #369;}
+</style>
+<script type="text/javascript">
+var cell = 10;
+var row = 10;
+
+function createDOM() {
+ // creates a <table> element and a <tbody> element
+  const tbl = document.createElement("table");
+  const tblBody = document.createElement("tbody");
+
+  for (let i = 0; i < 2; i++) {
+    const row = document.createElement("tr");
+
+    for (let j = 0; j < 2; j++) {
+      const cell = document.createElement("td");
+      const cellText = document.createTextNode(`cell in row ${i}, column ${j}`);
+      cell.appendChild(cellText);
+      row.appendChild(cell);
+    }
+    tblBody.appendChild(row);
+  }
+
+  tbl.appendChild(tblBody);
+  document.body.appendChild(tbl);
+}
+</script>
+</head>
+<body>
+<a href="javascript:createDOM();">Создать таблицу с помощью методов DOM</a><br>
+<div id="d"></div>
+</body>
+</html>
